@@ -1,0 +1,485 @@
+
+body{
+   overflow-x: hidden;
+    background-attachment:unset;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+.iam{
+    color: white;
+}
+.header{
+   background-image: url(girlss.jpg);
+   /* filter: brightness(70%); */
+   height: 660px;
+    background-size: cover;
+    background-position: center; 
+    /* height: 900px; */
+    width: auto;
+    
+}
+.content{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20%;
+    
+}
+.videomp{
+    object-fit: cover;
+}
+.header video{
+    position: absolute;
+    width: 100%;
+    /* height: 1100px; */
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+    object-fit: cover;
+}
+.a{
+    color: black;
+}
+
+.input{
+    color:  yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.fa-facebook{
+    font-size: x-large;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+.fa-linkedin:hover{
+    color: rgb(0, 184, 240)
+
+}
+.fa-twitter{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    cursor: pointer;
+
+}
+.fa-twitter:hover{
+ color: rgb(29, 155, 240);
+transform: translateY(-5px);
+cursor: pointer;
+transition: 0.3s;
+font-size: x-large;
+}
+.fa-facebook:hover{
+color: blue;
+transform: translateY(-5px);
+cursor: pointer;
+transition: 0.3s;
+font-size: x-large;
+}
+.fa-instagram{
+font-size: x-large;
+margin: 10px;
+/* color: #E1306C; */
+color: #ffffff;
+}
+
+.fa-instagram:hover{
+color: blue;
+cursor: pointer;
+transition: 0.5s;
+font-size: x-large;
+color: #E1306C;
+transform: translateY(-5px);
+}
+.fa-linkedin{
+font-size: x-large;
+margin-left: 5px;
+cursor: pointer;
+color: white;
+}
+.fa-linkedin:hover{
+transition: 0.5s;
+color: blue;
+transform: translateY(-5px);
+}
+.prince{
+    color:rgb(0, 0, 0);
+    /* background-color: red; */
+    position: absolute;
+    width: 50%;
+    left: 0;
+    margin-top: 35px;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+
+}  
+.prince image{
+    width: 0% !important;
+} 
+.navi {
+    margin-top: 20px;
+    margin-left:10%;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(219, 208, 7);
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-decoration: none;
+   list-style: none;
+   /* background-color: red; */
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15fpx;
+}
+#call{
+    color: white;
+    margin-left: 20px;
+    /* font-size: large; */
+    /* margin-left: 40px; */
+}
+.navbar ul li {
+    text-decoration: none;
+    padding: 0px 25px;
+    position: relative;
+    margin: 0 5px;
+    list-style: none;
+    /* background-color: red; */
+    /* display: none; */
+    /* background-color: red; */
+
+
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 28px;
+    bottom: -7px;
+    transition: 0.7s;
+
+}
+.navbar{
+    /* background-color: yellow; */
+    /* height: 30px; */
+}
+.navbar ul li:hover::after{
+    width: 50%;
+}
+.know{
+    content: "";
+    height: 5px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 28px;
+    top: px;
+    transition: 0.7s;
+    margin-top: 60px;
+}
+.Learn{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    padding: 7px;
+    font-size: small;
+}
+.Learn:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.3s;
+    color: white;
+    background: transparent;
+}
+.Register{
+       background-color: rgb(0, 0, 0);
+       margin-left: 5%;
+    color: yellow;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    padding: 7px;
+    font-size: small;
+}
+.know:hover{
+    width: 30%;
+}
+.navbar li a:hover{
+/* color: green; */
+}
+.navi li a{
+    text-decoration: none;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-weight: ;
+}
+.icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 85%;
+    margin-top: 20px;
+    padding: 0px 20px;
+    /* background-color: red; */
+}
+.image{
+    width: 400px;
+    height: 400px;
+
+}
+.software
+{
+    width: 500px;
+    height: 500px;  
+}
+.get{
+    color: white;
+    margin-top: 10%;
+}
+.card{
+    width: 330px;
+    height: 200px;
+    border: none;
+    box-shadow: 0px 0px 10px grey;
+    position: relative;
+    bottom: 10%;
+    border-radius: 20px;
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   flex-wrap: nowrap;
+    /* line-height: 3px; */
+    align-items: center;
+}
+.fa-envelope{
+    font-size: x-large;
+}
+.sec{
+    background-image: url(What\ do\ software\ developers\ do.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.get{
+    width: 500px;
+    margin-left: 10%;
+}
+
+.image1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    /* margin: 80px; */
+}
+.image h4{
+    color: rgb(200, 200, 11);
+    margin-left: 10%;
+}
+.men{
+       width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.image p{
+    justify-content: center;
+
+    width: 300px;
+    /* background-color: red; */
+    letter-spacing: -1px;
+    line-height: 20px;
+}
+
+.image h6{
+    color: rgb(128, 128, 0);
+    display: flex;
+    margin-left: 23%;
+    /* justify-content: center; */
+}
+.read{
+    width: 120px;
+    height: 30px;
+    border:none;
+    margin-left: 20%;
+    border-radius: 30px;
+    background-color: rgb(223, 223, 0);
+    color: black;
+    /* font-size: small; */
+}
+
+.center{
+    width: 100%;
+    height: 200px;
+}
+.met{
+    width: 100%;
+    height: 150px;
+    background-image: url(met.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(10   0%); */
+}
+.met h2{
+    color: white;
+    filter: brightness(100%);
+}
+.met p{
+    color: white;
+}
+#email{
+    width: 300px;
+    height: 40px !important;
+    border-radius: 30px;
+    /* text-align: center; */
+    height: 30px;
+    border: none;
+
+}
+.subs{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+    bottom: 23.5%;
+    margin-left: 54%;
+ 
+}
+.hh{
+    width: 500px;
+}
+.pp{
+    width: 700px;
+    /* line-height: 1px; */
+    letter-spacing: -1px;
+}
+.k{
+    width: 300px;
+    height: 200px;
+
+}
+.meeting{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+}
+
+.a{
+    width: 100px;
+    background-color: yellow;
+    border: none;
+
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.b{
+    border-radius: 20px;
+    width: 100px;
+    background-color: yellow;
+    border: none;
+    margin-top: 127px;
+    margin-left: 40px;
+}
+.c{
+    border-radius: 20px;
+    width: 100px;
+    background-color: yellow;
+    border: none;
+    margin-top: 127px;
+    margin-left: 40px;
+}
+.d{
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: yellow;
+    border: none;
+    margin-top: 127px;
+}
+.prog{
+    color: yellow;
+    margin-top: 4%;
+}
+
+.form{
+    width: 600px;
+    height: 250px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+.text1{
+    width:250px;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+    height: 30px;
+    margin-top: 3%;
+}
+.text2{
+    width: 250px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+}
+#subject{
+    width: 500px;
+    height: 33px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-left: 7%;
+    border: 10px;
+}
+.textarea{
+    margin-left: 15%;
+    margin-top: 2%;
+    background-color: whitesmoke;
+}
+#now{
+    margin-left: 450px;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 5%;
+    background-color: rgb(198, 198, 39);
+    border: none;
+    padding: 4px;
+    font-size: small;
+}
+.in{
+    width: 200px;
+    font-weight: bold;
+}
+.footer{
+    background-image: url(nightvieww.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
